@@ -12,7 +12,7 @@ This is a SCANPY compatible version of SCALE based on [SCALE](https://github.com
 	cd SCALE
 	python setup.py install
 
-Installation only requires a few minutes.  
+This SCALE version may conflict with the original version of [SCALE](https://github.com/jsxlei/SCALE.git), it is recommended to uninstall [SCALE](https://github.com/jsxlei/SCALE.git) before install this SCALE version.
 
 ## Quick Start
 
