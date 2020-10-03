@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a SCANPY compatible version of SCALE.
+This is a SCANPY compatible version of SCALE based on [SCALE](https://github.com/jsxlei/SCALE.git).
 
 ## Installation  
 
