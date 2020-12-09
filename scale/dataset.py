@@ -185,7 +185,10 @@ def load_data(path, transpose=False,transforms=[]):
     if os.path.isdir(path):
         adata = read_mtx(path)
     elif os.path.isfile(path):
-        adata = read_csv(path)
+        try:
+            adata = read_csv(path)
+        except:
+            adata= sc.read(path)    
     else:
         raise ValueError("File {} not exists".format(path))
 
